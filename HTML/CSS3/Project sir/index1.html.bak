@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page title </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url(img1.jpg);
+  background-size:100% 100%;
+  color: white;
+  float:left;
+  opacity:0.9;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: blacks;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+	  width:100%;
+       }
+}
+
+
+
+
+
+
+/* Sidebar/left column */
+.side {  
+  background-color: #f1f1f1;
+  padding: 20px;
+  float:left;
+}
+
+/* Main column */
+.main {
+  
+  background-color: white;
+  padding: 20px;
+  float:left;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  margin-top:10px;
+  margin-bottom:10px;
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  float:left;
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- Note -->
+<div class="row">
+	<div class="col-12" style="background:#4987f2;padding:5px">
+	  <h4 style="text-align:center">Welcome to Tops Technologies</h4>
+	</div>
+</div>
+<!-- Header -->
+<div class="row">
+	<div class="col-12 header ">
+	  <h1>My Website</h1>
+	  <p>With a <b>flexible</b> layout.</p>
+	</div>
+</DIV>
+
+<!-- Navigation Bar -->
+<div class="topnav">
+  <a href="#">About us</a>
+  <a href="#">Courses</a>
+  <a href="#">Address</a>
+  <a href="#">Link</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="col-4 side">
+    <h2>About Tops</h2>
+		<h5>Photo of Tops:</h5>
+		<img src="img1.jpg" class="fakeimg">
+		<p>"TOPS" Stands for Training Outsourcing Placement Services. TOPS Technologies is a rapidly growing company that provides Job Oriented Training,Web and Mobile Design - Development with Testing & Support services along with other professional placement and recruitment services and solutions.</p>
+		<h3>We have worked for and have provided services to the 6 of the top 10 Fortune 500 companies of the world. Our team has worked in the US for more then 10 years and has management degrees from the US. </h3>
+		<p>TOPS Technologies was awarded the TOP 2008 Business in the US for the year 2008-2009.</p>
+		<img src="img2.jpg" class="fakeimg">
+		<img src="img3.jpg" class="fakeimg">
+		<img src="img4.jpg" class="fakeimg">	
+  </div>
+  
+  <div class="col-8 main">
+    <h2>Tops Technologies</h2>
+		<div class="row">
+			<div class="col-6" style="padding:10px">
+				<img src="img5.jpg" height="150px" class="fakeimg">
+			</div>	
+			<div class="col-6" style="padding:10px">
+				<p>About Tops</p>
+				<p>Started with a vision of bridging the gap between skills required and talent created by colleges, today TOPS Technologies is one of the largest IT Training and Finishing Schools with expertise in ASP.Net, PHP, Java, iPhone, Android, Software Testing, SEO, Web Design. Today we have Software Development training centers in Ahmedabad, Vadodara, Rajkot, Surat, Navsari, Mehsana, Junagadh, Indore, Bhopal, Jabalpur, Noida, Kota, Jaipur, Nagpur, Dehradun.</p>
+			</div>
+		</div>	
+		
+		<div class="row">
+			<div class="col-6" style="padding:10px">
+				<p>TOPS Technologies offers IT Outsourcing Services includes:
+
+                <li> 	Web Design and Development Services</li>  
+                <li> 	Mobile Apps Development Services (Android, iPhone)</li>
+                <li> 	eCommerce Development Services</p></li>
+			</div>
+			<div class="col-6" style="padding:10px">
+				<img src="img2.jpg" height="auto" class="fakeimg">
+			</div>	
+			
+		</div>
+		
+		<div class="row">
+			<div class="col-6" style="padding:10px">
+				<img src="img5.jpg" height="150px" class="fakeimg">
+			</div>	
+			<div class="col-6" style="padding:10px">
+				
+				<p></p>
+			</div>
+		</div>	
+		
+		<div class="row">
+			<div class="col-12" style="padding:10px">
+				<p>TOPS Technologies is one of the largest IT Training Provider in Gujarat and Finishing Schools with expertise in ASP.Net Training, PHP Training, Java Training, iPhone Training, Android Training, Software Testing Training, SEO Training, Web Design Training.Learn Software Development, Mobile App Development, Networking, Web and Graphic Designing, Digital Marketing with Experienced Team – Over 100k Students Trained and Placed. Call Today at 2260122358 for a Demo.</p>
+			</div>
+			<div class="col-12" style="padding:10px">
+				<img src="img4.jpg" height="350px" class="fakeimg">
+			</div>	
+			
+		</div>		
+			
+  </div>
+</div>
+
+<!-- Footer -->
+<div style="background-color: white; ">
+            <div class="row " style="display: flex; ">
+                <div 
+<div style="width: 20%; ">
+                    <ul style="color: rgba(109, 83, 228, 0.253);list-style: none;padding-top:70px;padding-bottom: 40px; ">
+                        <li style="font-size: 25px;color: black "> Quick Link
+                        </li> <br>
+                        <li style="color:black;"> About Us</li> <br>
+                        <li style="color:black;">Terms & Conditions</li> <br>
+                        <li style="color:black;">Privacy Policy</li> <br>
+                        <li style="color:black;">Help</li> <br>
+                        <li style="color:black;"> Rooms</li> <br>
+                    </ul>
+                </div>
+                <div style="width: 20%; ">
+                    <ul style="color:rgba(109, 83, 228, 0.253);list-style: none;padding-top:70px;padding-bottom: 40px; ">
+                        <li style="font-size: 25px;color: black "> Support</li> <br>
+                        <li style="color:black;"> Our Location</li> <br>
+                        <li style="color:black;">The Hosts</li> <br>
+                        <li style="color:black;">About</li> <br>
+                        <li style="color:black;">Contact</li> <br>
+                        <li style="color:black;">Restaurant</li> <br>
+                    </ul>
+                </div>
+                <div style="width: 20%; ">
+                    <ul style="color:rgba(109, 83, 228, 0.253);list-style: none;padding-top:70px;padding-bottom: 40px; ">
+                        <li style="font-size: 25px;color: black "> Contact Info</li> <br>
+                        <li style="color:black;"> Address
+                            <span style="color: black;font-size: 20px; ">&nbsp;:</span><br> 98 West 21th Street, Suite 721 <br> New York NY 10016</li> <br>
+                        <li style="color:black;"> Phone <span style="color: black;font-size: 20px; ">&nbsp;: </span><br>(+1) 435 3533</li> <br>
+                        <li style="color:black;">Email<span style="color: black;font-size: 20px; "> &nbsp;:</span> <br>info@yourdomain.com</li>
+                    </ul>
+                </div>
+                <div style="width: 26%; ">
+                    <ul style="color:rgba(109, 83, 228, 0.253);list-style: none;padding-top:70px;padding-bottom: 40px; ">
+                        <li style="font-size: 25px;color: black "> Subscribe</li> <br> <br>
+                        <li style="font-size: 25px; color:black; "> Sign up for our newsletter</li> <br>
+                        <button style="background-color: transparent;color:grey;border: none;font-family:cursive ">Your Email... <hr style="width: 200px;; "></button>
+                    </ul>
+                </div>
+            </div>
+            <div class=" " style="align-items: center; ">
+                <hr style="width: 70%; ">
+                <h1 style="text-align: center; color: rgb(155,139,192);font-size: 20px;font-family:Arial;padding-top:2%; "> Copyright © 2022 All rights reserved | </h1>
+           
+            <center style="padding-bottom: 10%;padding-top: 1%;">
+                <i class="fa fa-facebook" style="font-size:20px; color:black;padding-right:1%;"></i>
+                <i class="fa fa-twitter" style="font-size:20px;color:black;padding-right:1%;"></i>
+                <i class="fa fa-instagram" style="font-size:20px;color:black;padding-right:1%;"></i>
+                <i class="fa fa-linkedin" style="font-size:20px;color:black;padding-right:1%;"></i>
+                <i class="fa fa-youtube" style="font-size:20px;color:black;padding-right:1%;"></i>
+                
+                </center>
+            </div>
+        </div>
+        
+</body>
+
+
+</html>

@@ -1,0 +1,72 @@
+<html>
+    <head>
+	   <title>Honest Restaurant</title>
+	   <link rel="icon" href="logo.png">
+    </head>   
+	
+
+<h1>Honest Restaurant </h1>
+ 
+<h3>Menu List</h3>
+
+<ul>
+    <b><li>Snacks</li></b>
+        <ol type="1">
+          <li>Vegetable Puff Rs. 20</li>
+          <li>Noodles Rs. 50</li>
+          <li>Samosa Rs. 30</li>
+</ol>
+</ul>
+	<ul>
+    <b><li>Soups</li></b>
+        <ol type="1">
+          <li>Hot & sour soup Rs. 70</li>
+          <li>Manchow soup Rs.70 </li>
+          <li>Sweet corn soup Rs.70</li>
+</ol>
+</ul>
+
+<ul>
+    <b><li>Starters </li></b>
+        <ol type="1">
+          <li>Dry Manchurian Rs.50</li>
+          <li>Paneer Chilli Rs.65</li>
+          <li>Veg. lollipop Rs. 30 (per piece) </li>
+          <li>Paneer Chilli gravy Rs.85</li>
+</ol>
+</ul>	
+
+<ul>
+    <b><li>Pav bhaji</li></b>
+        <ol type="1">
+          <li>Bhaji Pav Rs. 85</li>
+          <li>Cheese Bhaji Pav Rs. 100 </li>
+          <li>Honest Special Bhaji Pav rs. 110</li>
+		  <li>Bhaji Pav with cashew Rs. 100</li>
+		  <li>Bhaji Pav with extra pav Rs. 110</li>
+		  <li>Bhaji Pav masala pav Rs. 95</li>
+		  <li>Bhaji Pav with lasuni chutney Rs. 100</li>
+</ol>
+</ul>
+<ul>
+    <b><li>Pulav</li></b>
+        <ol type="1">
+          <li>Pulav rs.70</li>
+          <li>Cheese pulav rs.80</li>
+          <li>Honest special Pulav rs.100</li>
+</ol>
+</ul>
+
+<ul>
+    <b><li>Combo Treats </li></b>
+        <ol type="1">
+          <li>Chana Puri Rs. 120</li>
+          <li>Chole Bhature Rs.150</li>
+          <li>Punjabi Thaali Rs.200</li>
+</ol>
+</ul>
+	
+
+	
+	
+</html>

@@ -1,0 +1,62 @@
+<html>
+<title>Consultation Form </title>
+
+<fieldset> 
+<legend align="center"><h1>Consultation Form</h1></legend>
+<form action="" method="post">
+First Name:<input type="text" name="First name">
+<br>
+<br>
+<br>
+<br>
+Last Name :<input type="text" name="last name">
+<br>
+<br>
+<br>
+<br>
+Date :<input type="date" name="date">
+<br>
+<br>
+<br>
+<br>
+Time :<input type="time" name = "time">
+<br>
+<br>
+<br>
+<br>
+Blood group :<input type="text" name="blood group">
+<br>
+<br>
+<br>
+<br>
+Age : <input type="text" name="age">
+<br>
+<br>
+<br>
+<br>
+Gender : 
+
+Male :<input type="radio" value="male" name="gender">
+Female : <input type="radio" value="female" name="gender">
+<br>
+<br>
+<br>
+<br>
+Mobile no.: <input type="number" name="mobile no.">
+<br>
+<br>
+<br>
+<br>
+Optional Mobile no.: <input type="number" name="optional mobile no.">
+<br>
+<br>
+<br>
+<br>
+
+<input type="submit" name="submit" value="Register">
+<br> 
+<br>
+<input type="reset" name="Reset">
+</form>
+</fieldset>
+</html>

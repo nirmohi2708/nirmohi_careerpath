@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link href = "logo1.png"  rel="icon">
+	<img src ="logo1.png" alt="logo" width="180" height="150">
+	<title>Sam Restaurant</title>
+	<h2>Discover the best food options near you!<br>Order Now!</h2>
+</head>
+
+<body>
+	<fieldset>
+	<legend><h1><li>Punjabi</li></h1></legend>
+	<img src ="punjabi.png" alt="punjabi dish" width="220" height="200"><br>
+	<hr>
+	<ol type = "1">
+	<li>Paneer Tikka : 100/-</li>
+	<li>Paneer Masala : 120/-</li>
+	<li>Palak Tikka : 100/-</li>
+	<li>Paneer Butter : 140/-</li>
+	</ol>
+	</fieldset>
+	
+	<fieldset>
+	<legend><h1><ul type = "square"><li>Kathyawadi</li></ul></h1></legend>
+	<img src ="kathyawadi.png" alt="punjabi dish" width="220" height="200"><br>
+	<hr>
+	<ol type = "1">
+	<li>Sev Tameta : 70/-</li>
+	<li>Bataka Vatana : 80/-</li>
+	<li>Special Undhyu : 120/-</li>
+	<li>Dal Bhat : 80/-</li>
+	</ol>
+	</fieldset>
+	
+	<fieldset>
+	<legend><h1><ul type = "square"><li>Chicken</li></ul></h1></legend>
+	<img src ="chicken.png" alt="punjabi dish" width="220" height="200"><br>
+	<hr>
+	<ol type = "1">
+	<li>Butter Chicken : 100/-</li>
+	<li>Butter Chicken : 100/-</li>
+	<li>Chicken wings : 180/-</li>
+	<li>Chicken kofta : 140/-</li>
+	<li>Chicken Biryani : 80/-</li>
+	<li>Chicken Lollipop : 240/-</li>
+	</ol>
+	</fieldset>
+	
+	<pre>
+	<h1><i>Your Order is Confirmed! Thank you for Ordering! Visit us again!</i></h1>
+	</pre>
+</body>
+</html>

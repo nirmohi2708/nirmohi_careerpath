@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopping Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style the body */
+body {
+  margin: 0;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.header{
+  padding: 20px;
+  background-color: pink;
+  float: left;
+  text-align: center;
+  font-size: medium;
+  font-family:cursive;
+  font-size: 20px;
+  display: flex;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+.cart{
+  float: right;
+  text-align: right;
+  font-size: medium;
+  background-color: pink;
+  line-height: 10px;
+}
+.mainbar{
+  padding: 20px;
+  background-color: white;
+  float: left;
+  text-align: center;
+  font-family: sans-serif;
+  border-color: black;
+  border-radius: 10px;
+  border-style:double;
+  height: auto;
+
+}
+.slider{
+  padding: 20px;
+  background-color: white;
+  float: left;
+}
+.offer{
+  padding: 50px;
+  background-color:sandybrown;
+  border-color: black;
+  border-radius: none;
+  border-style:outset;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large; 
+  font-style: italic;
+  font-weight: bolder;
+  color: darkblue;
+}
+.menubar{
+  padding: 20px;
+  float: left;
+  text-align: center;
+  font-style:none;
+  font-weight: bolder;
+  border-style:ridge;
+  font-size: large;
+  line-height: 50px;
+  color:brown;
+}
+.images{
+  background-color: whitesmoke;
+  float: left;
+  border-style: ridge;
+  font-display: white;
+  text-align: center;
+}
+
+h2.test{
+  color: bisque;
+}
+
+.ending{
+  background-color: aliceblue;
+  float: left;
+  border-radius:20%;
+  border-style: groove;
+  text-align: center;
+  height:350px;
+  width: 250px;
+}
+.footer{
+  background-color: white;
+  float: left;
+  border-radius: none;
+  border-style:initial;
+  text-align: left;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 20px;
+  margin-left: 50px;
+  
+}
+  .details{
+  background-color: whitesmoke;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-style: normal;
+  font-variant: normal;
+  font-size:small;
+  font-weight: normal;
+  color: grey;
+  padding: 20px;
+  }
+ 
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="col-4 header">
+      <img src="backimg.jpg" align="left" height="100px" width="150px" >
+          </div>
+    <div class="col-8 header">
+      <h1>Nimo's Store</h1>
+    </div>
+    
+  </div>  
+
+  <div class="row">
+    <div class="col-2 mainbar">
+      <img src="Grocery.png" height="55%" width="60%">
+      <h3>Grocery </h3>
+    </div>
+    <div class="col-2 mainbar">
+      <img src="menswear.png" height="55%" width="60%" >
+      <h3>Men's Wear</h3>   
+    </div>
+    <div class="col-2 mainbar">
+      <img src="Women's Ethnic Wear.png" height="55%" width="60%">
+      <h3>Women's  Ethnic Wear</h3>
+    </div>
+    <div class="col-2 mainbar">
+      <img src="Western Wear.png" height="55%" width="60%">
+      <h3>Women's Western Wear</h3>
+    </div>
+    <div class="col-2 mainbar">
+      <img src="Mobiles.png" height="55%" width="60%">
+      <h3>Mobiles</h3>
+    </div>
+    <div class="col-2 mainbar">
+      <img src="smartwatch.png" height="55%" width="60%" >
+      <h3>Watches </h3>
+    </div>
+  </div>
+
+  <div class="slider">
+    <div>
+      <img src="offer9.jpg" height="600px" width="1500px">
+    </div>
+    <div>
+      <img src="offer6.jpg" height="600px" width="1500px">
+    </div>
+    <div>
+      <img src="offer7.webp" height="600px" width="1500px">
+    </div>
+    <div>
+      <img src="offer8.jpg" height="600px" width="1500px">
+    </div>
+  </div>
+
+
+   
+
+ <div><h1>**Top Trending Combos**</h1></div>
+   <div class="col-3 images">
+    <img src="image1.jpeg" height="250px" width="230px" >
+    <h1>Valentine's Combos</h1>
+    <h2 ><b> Under Rs.999</b></h2>
+   </div>
+  <div class="col-3 images">
+    <img src="image3.jpeg"height="250px" width="230px">
+    <h1>Make Up Combos</h1>
+    <h2><b>Under Rs.999</b></h2>
+  </div>
+  <div class="col-3 images">
+    <img src="image6.jpeg"height="230px" width="250px">
+    <h1>Handbags Combos</h1>
+    <h2><b>Under Rs.499</b></h2>
+  </div>
+ </div>
+
+ <div class="row">
+  <div class="col-3 menubar">
+    <h1>**Top Electronics Offers**</h1>
+  </div>
+  <div class="col-3 images">
+   <img src="image8.jpg" height="270px" width="150px" >
+   <br>
+   <h1>Mobiles</h1>
+   <h2 ><b> Starting From Rs.10,000</b></h2>
+  </div>
+ <div class="col-3 images">
+   <img src="image7.jpg"height="230px" width="250px">
+   <br>
+   <br>
+   <br>
+   <h1>Bluetooth Earphones</h1>
+   <h2><b>Starting From Rs.599</b></h2>
+ </div>
+ <div class="col-3 images">
+   <img src="image9.jpg"height="270px" width="250px">
+   <br>
+   <h1>Speakers</h1>
+   <h2><b>Upto 20% off</b></h2>
+ </div>
+</div>
+<br>
+<br>
+
+<div class="row">
+  <div class="col-2">
+
+  </div>
+  <div class="col-2 ending">
+    <img src="ending.jpg" height="50%" width="50%">
+    <h1>100% SECURE PAYMENTS</h1>
+    <h3>Moving your cards details towards secured place </h3>
+  </div>
+  <div class="col-2 ending">
+    <img src="ending2.jpg" height="50%" width="60%">
+    <h1>TRUST PAY</h1>
+    <h3>100% payment protection. <br>Easy Returns</h3>
+  </div>
+  <div class="col-2 ending">
+    <img src="ending3.jpg" height="50%" width="50%">
+    <h1>HELP CENTER</h1>
+    <h3>Got a question.<br>NO Worries <br>Submit your query here</h3>
+  </div>
+  <div class="col-2 ending">
+    <img src="ending4.png" height="50%" width="50%">
+    <h1>SHOP ON THE GO</h1>
+    <h3>Get exciting offers at your fingertips</h3>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-6 footer ">
+    <h2>PAYMENTS:</h2>
+    <img src="footer.png" height="50%" width="50%">  
+  </div>
+  <div class="col-3 footer ">
+    <h2>CONTACT US ON:</h2>
+    <h4>+91-9106022365</h4>
+    <i class="fa fa-facebook" style= " padding-left:20px; font-size:30px; color:blue"></i>
+    <i class="fa fa-instagram" style="padding-left:20px; font-size:30px; color:rgb(153, 68, 19)"></i>
+    <i class="fa fa-whatsapp" style="padding-left:20px; font-size:30px; color:green" ></i>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12 details">
+   <h4><b>Online Shopping:</b>  Mens Footwear / Lehenga / Dresses / Womens Watches / Kurtis / Womens Footwear / Sarees / Casual Shoes /
+     Mens Watches / Womens Casual Shoes / Frocks / Women Suits / Tops & Tunics / Gowns / Watches / Sports & Bicycles / 
+     Water Geysers / Men's Sportswear / Kids T-shirts / Kids Watches / Stationery Supplies / Baby Care Products / 
+     Copper Water Bottles</h4>
+     <h4><b>Men's Clothing: Shirts / Casual Shirts / Full Sleeves Casual Shirts / Formal Shirts / Full Sleeves Formal Shirts /
+        Regular Fit Formal Shirts / Cotton Shirts / T Shirts / Polo T shirts / V Neck T shirts / Henley T shirts /
+         Printed T shirts / Round Neck T shirts / Hooded Sweatshirts / Jackets / Trousers & Chinos / Low Rise Jeans / Slim Jeans /
+          Kurta Payjama Sets / Dhoti Kurta Sets</b></h4>
+          <h4>Women's Clothing: Saree / Designer Saree / Cotton Sarees / Georgette Sarees / Chiffon Sarees / Net Sarees /
+             Anarkali Suits / Kurtis / Leggings & Churidars / Embroidered Lehengas / Black Dresses / Jeggings / Jeans /
+              A Line Skirts / Women's Gowns / Women's Dresses
+          </h4>
+          <h4>Mobiles Accessories: Mobile Covers / Leather Mobile Covers / Printed Back Covers / 10000mAh Power Banks /
+             Ambrane Power Banks / Smart Watches / Fitness Bands / Tempered Glass Mobiles Screen Guards / Bluetooth Devices
+            Watches: Mens Watches / Womens Watches</h4>
+            <h4>
+              TVs, Audio & Video: Speakers / Headphones / Earphones / Home Theatre Systems
+            </h4>
+            <h4>Home Furnishing: Bed Linen / Bed Sheets / Bath Linen / Mattresses / Curtains / Cushion Covers / Pillows /
+               Carpets / Kids Bedding
+             <h4> Computers & Peripherals: External Hard Disks / Pen Drives / Memory Cards</h4>
+             <h4> Appliances: Fans / Mircowaves / Irons / Trimmers / Hair Dryers</h4>
+              <h4>Toys & Games: Soft Toys / Dolls / Musical Toys / Kids Skate Scooters / Electronic Toys / Toddler Toys /
+                 Die Cast Vehicle / Ride Ons & Scooters</h4>
+             <h4> Home & Kitchen: Home Decor / Paintings / Clocks / Flasks & Thermos / Photo Frames / Tupperware Kitchenware</h4>
+              <h4>FMCG Offer - Top Brands: Accu-Chek Health Monitoring Devices / Nutraj - California Walnuts / Park Avenue /
+                 Gillette </h4>
+              <h4>Memory Cards: 8 GB Memory Cards / 16 GB Memory Cards / 32 GB Memory Cards / 64 GB Memory Cards</h4>
+             <h4> Books: Fiction / Non Fiction / Children & Young Adults / Competitive Exams / School Books / Academic Texts /
+                Reference / Self Help</h4>
+     <br>
+     <br>
+     <br>
+     <h5>
+     Snapdeal is India's leading pure-play value Ecommerce platform. Founded in 2010 by Kunal Bahl and Rohit Bansal,
+      Snapdeal is one of the top four online lifestyle shopping destinations of India. Snapdeal brings together a wide assortment
+       of good quality and value- priced merchandise on its platform. Snapdeal's vision is to enable the shoppers of Bharat to 
+       experience the joy of living their aspirations through reliable, value-for-money shopping. With a personalized,
+        multilingual interface and cutting edge technology, Snapdeal has simplified the shopping experience for its value-conscious
+         buyers by showcasing the most relevant products- products that are a good functional fit with their needs and of a quality
+          that lasts- thereby delivering true value to its customers. With its commitment to high service standards, Snapdeal 
+          suppliers operate under a well structured ecosystem that enables them to offer great quality products at affordable 
+          prices. With majority of the value-seeking, middle-income, price-conscious buyers coming from the non-metros, Snapdeal’s
+           logistics networks powered by third party logistics cover more than 96% of India’s pin codes enabling order deliveries 
+           to more than 2500 towns and cities and expanding. Further, Snapdeal's mission is to become India’s value lifestyle 
+           omni-channel leader. We are excited about continuing to build a complete ecosystem around value commerce,
+            where we can serve Bharat consumers wherever they are on their offline to online shopping journey.
+          </h5>      
+</div>
+ 
+
+ 
+  
+  
+  
+
+
+
+    
+  
+
+
+</body>
